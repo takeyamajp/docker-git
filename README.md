@@ -5,11 +5,13 @@ Star this repository if it is useful for you.
 [![license](https://img.shields.io/github/license/takeyamajp/docker-git.svg)](https://github.com/takeyamajp/docker-git/blob/master/LICENSE)
 
 ### Supported tags and respective Dockerfile links  
-- [`latest`, `centos8`](https://github.com/takeyamajp/docker-git/blob/master/centos8/Dockerfile)
+- [`latest`, `rocky9`](https://github.com/takeyamajp/docker-git/blob/master/rocky9/Dockerfile) (Rocky Linux 9)
+- [`rocky8`](https://github.com/takeyamajp/docker-git/blob/master/rocky8/Dockerfile) (Rocky Linux 8)
+- [`centos8`](https://github.com/takeyamajp/docker-git/blob/master/centos8/Dockerfile) (We have finished support for CentOS 8.)
 - [`centos7`](https://github.com/takeyamajp/docker-git/blob/master/centos7/Dockerfile)
 
 ### Image summary
-    FROM centos:centos8  
+    FROM rockylinux/rockylinux:9  
     MAINTAINER "Hiroki Takeyama"
     
     ENV TIMEZONE Asia/Tokyo
